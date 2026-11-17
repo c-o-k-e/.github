@@ -97,7 +97,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#暂时离开与下次继续">暂时离开与下次继续</a>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#继续编辑时的检查">继续编辑时的检查</a>
+<li class="toctree-l2"><a class="reference internal" href="#重进-codespace-后的检查步骤">重进 Codespace 后的检查步骤</a>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#离开前的检查">离开前的检查</a>
 </li>
@@ -242,14 +242,12 @@ python<span class="w"> </span>-m<span class="w"> </span>mkdocs<span class="w"> <
 <p>下次继续时，在列表打开原有 Codespace，已保存文件可以恢复；之前运行的预览服务等进程需要重新启动。</p>
 <p>停止后不再消耗算力，但依旧占用存储额度；长期不用，确认代码已备份推送后，可以删除环境释放空间。</p>
 <p>操作说明见 <a href="https://docs.github.com/zh/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace">GitHub：停止和启动 Codespace</a>。</p>
-<h2 id="继续编辑时的检查">继续编辑时的检查</h2>
-<p>重新进入 Codespace 后，在终端依次检查：</p>
-<ul>
-<li>运行 <code>git branch --show-current</code>，确认分支与原 Pull Request 的来源分支一致。</li>
-<li>运行 <code>git status --short</code>，查看已修改、已暂存和未跟踪的文件，确认列表里都是本次需要处理的内容。</li>
-<li>运行 <code>git diff</code> 查看尚未暂存的修改，再运行 <code>git diff --cached</code> 查看已暂存的修改。两处都核对后，再继续编辑、提交和推送。</li>
-</ul>
-<p>如果分支或文件列表与预期不符，先弄清已有修改的用途，保存好需要保留的内容，再继续操作。</p>
+<h2 id="重进-codespace-后的检查步骤">重进 Codespace 后的检查步骤</h2>
+<p>重新进入 Codespace 后，在终端依次执行检查：
+- 执行 <code>git branch --show-current</code>，确认当前分支和 PR 来源分支一致。
+- 执行 <code>git status --short</code>，核对变更文件列表，确认均为本次待处理内容。
+- 执行 <code>git diff</code> 查看未暂存修改；再执行 <code>git diff --cached</code> 查看已暂存修改。两处核对无误后，再进行编辑、提交与推送。</p>
+<p>若分支、变更文件和预期不一致，先梳理现有修改，妥善留存需要保留的内容，再继续操作。</p>
 <h2 id="离开前的检查">离开前的检查</h2>
 <p>结束编辑前，请确认文件已保存，并查看待提交文件列表；需要稍后继续时，记下当前分支和最后一次提交。这样重新打开环境后，可以从同一位置继续处理。</p></div>
 </div>
