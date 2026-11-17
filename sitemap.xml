@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://openhutb.github.io/.github/Minecraft%20Java%20Edition%20Downgrade%20Guide/</loc>
+         <lastmod>2026-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://openhutb.github.io/.github/ask_question/</loc>
          <lastmod>2026-11-17</lastmod>
          <changefreq>daily</changefreq>
@@ -32,6 +37,11 @@
     </url>
     <url>
          <loc>https://openhutb.github.io/.github/env_conf/</loc>
+         <lastmod>2026-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openhutb.github.io/.github/filee_official_guide/</loc>
          <lastmod>2026-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -86,12 +96,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://openhutb.github.io/.github/video_editing/</loc>
+         <lastmod>2026-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://openhutb.github.io/.github/wsl/</loc>
          <lastmod>2026-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://openhutb.github.io/.github/adv/find_author/</loc>
+         <lastmod>2026-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openhutb.github.io/.github/community/code-of-conduct/</loc>
          <lastmod>2026-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -122,6 +142,11 @@
     </url>
     <url>
          <loc>https://openhutb.github.io/.github/paper/avf/</loc>
+         <lastmod>2026-11-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://openhutb.github.io/.github/src/python/</loc>
          <lastmod>2026-11-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
